@@ -3,3 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blunts or Joints? Survey</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div id="age-verification" class="container">
+        <h1>Welcome to ILoveBlunts.com</h1>
+        <p>You must be 21 years or older to enter this site.</p>
+        <label for="age">Enter your birth year:</label>
+        <input type="number" id="age" name="age" min="1900" max="2025">
+        <button id="verify-age">Verify Age</button>
+    </div>
+
+    <div id="survey" class="container hidden">
+        <h1>Blunts or Joints? Which are you?</h1>
+        <div class="options" id="question1">
+            <button class="option" data-question="1" data-answer="joints">I Love Joints!🥰</button>
+            <button class="option" data-question="1" data-answer="blunts">I Love Blunts!😍</button>
+        </div>
+        
+        <h1>🌿 Can you legally light up in your state?</h1>
+        <div class="options" id="question2">
+            <button class="option" data-question="2" data-answer="yes">🅰️ Yes! Rolling up as we speak!</button>
+            <button class="option" data-question="2" data-answer="no">🅱️ Not yet, but I’ve got my hopes high!</button>
+        </div>
+
+        <h1>🚨 Why do some states keep cannabis illegal, even when it doesn't benefit the citizens?</h1>
+        <div class="options" id="question3">
+            <button class="option" data-question="3" data-answer="prisons">🅰️ To keep private prisons full and profitable 💰🚔</button>
+            <button class="option" data-question="3" data-answer="pharma">🅱️ Big Pharma doesn’t want the competition 💊💵</button>
+            <button class="option" data-question="3" data-answer="fines">🅲️ They make money from tickets and court fines 🏛️💸</button>
+            <button class="option" data-question="3" data-answer="alcohol">🅳️ Alcohol & tobacco industries fear the competition 🍻🚫</button>
+            <button class="option" data-question="3" data-answer="control">🅴️ It gives politicians more control over communities 🎭⚖️</button>
+        </div>
+    </div>
+</body>
+</html>
